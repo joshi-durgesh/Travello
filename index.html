@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en-in">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travello</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="navigation">
+      <nav
+        class="d-flex align-items-center justify-content-between p-4 main-nav"
+      >
+        <div>
+          <a href="#" class="fw-bold fs-3 text-light">Travello</a>
+        </div>
+
+        <div>
+          <ul
+            class="d-flex list-unstyled fw-normal gap-5 align-items-center mb-0"
+          >
+            <li><a class="text-light" href="#">Home</a></li>
+            <li><a class="text-light" href="#intro">About us</a></li>
+            <li><a class="text-light" href="#offers">Services</a></li>
+            <li><a class="text-light" href="#news">News</a></li>
+            <li><a class="text-light" href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <a class="text-light fw-normal fs-5 me-4" href="tel:+005644567833"
+            >Call us: 00-56 445 678 33</a
+          >
+        </div>
+      </nav>
+    </header>
+    <section class="hero-img">
+      <div class="adjustment"></div>
+      <div class="hero-section">
+        <h2 class="text-light hero-title text-center">Let us take you away</h2>
+
+        <div class="text-end page-link">
+          <div class="mb-4">
+            <a class="ps-4" href="#offers"
+              >Offers <span class="ms-4">01</span></a
+            >
+          </div>
+          <div class="mb-4">
+            <a class="ps-4" href="#testimonial"
+              >Testimonials <span class="ms-4">02</span></a
+            >
+          </div>
+          <div class="">
+            <a class="ps-4" href="#news">Latest <span class="ms-4">03</span></a>
+          </div>
+        </div>
+
+        <div class="rounded-2 hero-form">
+          <div class="text-center mb-1">
+            <span class="bg-light fs-5 p-3 ps-5 pe-5 rounded-2 text-dark"
+              >Search for your trip</span
+            >
+          </div>
+
+          <form class="bg-light p-4 input-group rounded-0 input-padding">
+            <input
+              class="form-control rounded-0 me-3 border-0 bg-light-grey input-large"
+              type="text"
+              placeholder="City"
+            />
+            <input
+              class="form-control me-3 border-0 bg-light-grey"
+              type="text"
+              placeholder="Departure"
+            />
+            <input
+              class="form-control me-3 border-0 bg-light-grey"
+              type="text"
+              placeholder="Arrival"
+            />
+            <input
+              class="form-control me-3 border-0 bg-light-grey input-large"
+              type="text"
+              placeholder="Budget"
+            />
+            <button class="btn btn-dark rounded-4 btn-size">SEARCH</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro-section">
+      <div class="d-flex intro-items justify-content-between">
+        <div class="">
+          <div class="d-flex gap-3 align-items-end">
+            <img class="intro-icons" src="public/img/beach.svg" />
+
+            <div class="d-flex flex-column">
+              <span class="intro-title">Top Destinations</span>
+
+              <span class="intro-subtitle"
+                >Nulla pretium tincidunt felis, nec.</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="d-flex gap-3 align-items-end">
+            <img class="intro-icons" src="public/img/wallet.svg" />
+
+            <div class="d-flex flex-column">
+              <span class="intro-title">The Best Prices</span>
+
+              <span class="intro-subtitle"
+                >Sollicitudin mauris lobortis in.</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="d-flex gap-3 align-items-end">
+            <img class="intro-icons" src="public/img/suitcase.svg" />
+
+            <div class="d-flex flex-column">
+              <span class="intro-title">Amazing Services</span>
+
+              <span class="intro-subtitle"
+                >Nulla pretium tincidunt felis, nec.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="intro" class="intro-img"></div>
+    </section>
+
+    <section id="offers" class="offers-section">
+      <div class="text-center mt-5 mb-4 offers-title">
+        SIMPLY AMAZING PLACES
+      </div>
+
+      <div class="text-center offers-subtitle">
+        <h1 class="">Popular Destinations</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-4 p-0 ps-3 pe-3">
+          <div class="offers-img mb-3 position-relative">
+            <img src="public/img/destination_1.jpg.webp" />
+            <a
+              href="#"
+              class="text-light bg-black p-1 ps-3 pe-3 position-absolute top-0 start-0 m-2"
+              >Special Offer</a
+            >
+          </div>
+          <div class="fs-2">Bali</div>
+          <div class="mb-3 light-font fw-lighter">
+            Nulla pretium tincidunt felis, nec.
+          </div>
+          <div class="fw-bold mb-4">Form $679</div>
+        </div>
+
+        <div class="col-4 p-0 ps-3 pe-3">
+          <div class="offers-img mb-3">
+            <img src="public/img/destination_2.jpg.webp" />
+          </div>
+          <div class="fs-2">Indonesia</div>
+          <div class="mb-3 light-font fw-lighter">
+            Nulla pretium tincidunt felis, nec.
+          </div>
+          <div class="fw-bold mb-4">Form $679</div>
+        </div>
+
+        <div class="col-4 p-0 ps-3 pe-3">
+          <div class="offers-img mb-3">
+            <img src="public/img/destination_3.jpg.webp" />
+          </div>
+          <div class="fs-2">San Francisco</div>
+          <div class="mb-3 light-font fw-lighter">
+            Nulla pretium tincidunt felis, nec.
+          </div>
+          <div class="fw-bold">Form $679</div>
+        </div>
+
+        <div class="col-4 p-0 ps-3 pe-3">
+          <div class="offers-img mb-3">
+            <img src="public/img/destination_4.jpg.webp" />
+          </div>
+          <div class="fs-2">Paris</div>
+          <div class="mb-3 light-font fw-lighter">
+            Nulla pretium tincidunt felis, nec.
+          </div>
+          <div class="fw-bold">Form $679</div>
+        </div>
+
+        <div class="col-4 ps-3 pe-3 p-0">
+          <div class="offers-img mb-3">
+            <img src="public/img/destination_5.jpg.webp" />
+          </div>
+          <div class="fs-2">Phi Phi Island</div>
+          <div class="mb-3 light-font fw-lighter">
+            Nulla pretium tincidunt felis, nec.
+          </div>
+          <div class="fw-bold">Form $679</div>
+        </div>
+
+        <div class="col-4 ps-3 pe-3 p-0">
+          <div class="offers-img mb-3">
+            <img src="public/img/destination_6.jpg.webp" />
+          </div>
+          <div class="fs-2">Mykonos</div>
+          <div class="mb-3 light-font fw-lighter">
+            Nulla pretium tincidunt felis, nec.
+          </div>
+          <div class="fw-bold">Form $679</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="testimonial-section">
+      <div class="testimonial-bg text-light text-center">
+        <div class="text-end testimonial-link">
+          <div class="mb-4">
+            <a class="ps-4" href="#"
+              >City Breaks Clients <span class="ms-4">01</span></a
+            >
+          </div>
+          <div class="mb-4">
+            <a class="ps-4" href="#"
+              >Cruises Clients <span class="ms-4">02</span></a
+            >
+          </div>
+          <div class="">
+            <a class="ps-4" href="#"
+              >All Inclusive Clients <span class="ms-4">03</span></a
+            >
+          </div>
+        </div>
+
+        <div class="testimonial-width">
+          <h4 class="testimonial-title offers-title mb-4">
+            SIMPLY AMAZING PLACES
+          </h4>
+          <h2 class="testimonial-subtitle">Testimonials</h2>
+          <blockquote class="fs-2 fst-italic fw-lighter">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lobortis
+            dolor. Cras placerat lectus a posuere aliquet. Curabitur quis
+            vehicula odio.
+          </blockquote>
+          <p class="fs-5">JOHN TURN ,<span class="font-small">CLIENT</span></p>
+        </div>
+      </div>
+    </section>
+    <section id="news" class="news-section">
+      <div class="row m-0">
+        <div class="col-8 p-0">
+          <div class="row m-0 mb-4">
+            <div class="col-4 ps-0">
+              <img class="w-100 mt-4" src="public/img/news_1.jpg.webp" />
+            </div>
+            <div class="col-8">
+              <p class="news-date mb-0">02<span>JUNE</span></p>
+              <h2>Best tips to travel light</h2>
+              <h4 class="news-gener mb-3">LIFESTYLE & TRAVEL</h4>
+              <p class="news-article">
+                Pellentesque sit amet elementum ccumsan sit amet mattis eget,
+                tristique at leo. Vivamus massa.Tempor massa et laoreet.
+              </p>
+            </div>
+          </div>
+          <div class="row m-0 mb-4">
+            <div class="col-4 ps-0">
+              <img class="w-100 mt-4" src="public/img/news_2.jpg.webp" />
+            </div>
+            <div class="col-8">
+              <p class="news-date mb-0">01<span>JUNE</span></p>
+              <h2>Best tips to travel light</h2>
+              <h4 class="news-gener mb-3">LIFESTYLE & TRAVEL</h4>
+              <p class="news-article">
+                Pellentesque sit amet elementum ccumsan sit amet mattis eget,
+                tristique at leo. Vivamus massa.Tempor massa et laoreet.
+              </p>
+            </div>
+          </div>
+          <div class="row m-0">
+            <div class="col-4 ps-0">
+              <img class="w-100 mt-4" src="public/img/news_3.jpg.webp" />
+            </div>
+            <div class="col-8">
+              <p class="news-date mb-0">09<span>May</span></p>
+              <h2>Best tips to travel light</h2>
+              <h4 class="news-gener mb-3">LIFESTYLE & TRAVEL</h4>
+              <p class="news-article">
+                Pellentesque sit amet elementum ccumsan sit amet mattis eget,
+                tristique at leo. Vivamus massa.Tempor massa et laoreet.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="news-offer">
+            <div class="blue-box"></div>
+            <div class="pink-box"></div>
+            <div class="offer text-light text-center">
+              <div class="offer-1">Get a 20%</div>
+              <div class="offer-2 mb-2">Discount</div>
+              <div>Buy Your Vacation Online Now</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="footer-img">
+      <div class="max-width">
+        <h2 class="text-light text-center footer-title mb-4">
+          Subscribe to our newsletter to get the latest trends & news
+        </h2>
+        <h4 class="text-center fw-lighter arial-font">
+          Join our database NOW!
+        </h4>
+
+        <div class="footer-form d-flex">
+          <input
+            class="form-control rounded-0 w-50 me-3 border-0"
+            type="text"
+            placeholder="Name"
+          />
+          <input
+            class="form-control rounded-0 border-0 me-3"
+            type="text"
+            placeholder="Your e-mail"
+          />
+          <button class="btn rounded-5">SUBSCRIBE</button>
+        </div>
+
+        <div
+          class="d-flex text-light justify-content-around mt-5 pt-4 ps-5 pe-5"
+        >
+          <div class="text-center">
+            <img src="public/img/sign.svg" width="70" />
+            <p class="fs-4 mt-4">GIVE US A CALL</p>
+            <p class="mb-1 footer-details">
+              Office Landline: +44 5567 32 664 567
+            </p>
+            <p class="footer-details">Mobile: +44 5567 89 3322 332</p>
+          </div>
+          <div class="text-center">
+            <img src="public/img/trekking.svg" width="70" />
+            <p class="fs-4 mt-4">COME & DROP BY</p>
+            <p class="mb-1 footer-details">4124 Barnes Street, Sanford,</p>
+            <p class="footer-details">FL 32771</p>
+          </div>
+          <div class="text-center">
+            <img src="public/img/around.svg" width="70" />
+            <p class="fs-4 mt-4">SEND US A MESSAGE</p>
+            <p class="mb-1 footer-details">youremail@gmail.com</p>
+            <p class="footer-details">Office@yourbusinessname.com</p>
+          </div>
+        </div>
+        <div class="footer-details mt-4 pt-3 text-center">
+          Copyright ©2023 All rights reserved | This template is made with
+          <span class="bi bi-heart"></span> by <a href="#">Colorlib</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
